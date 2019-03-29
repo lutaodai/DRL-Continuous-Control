@@ -70,27 +70,19 @@ NUM_UPDATES | 10
 
 ### Plot of results
 
-As seen below, the environment is solved after 129 episodes (average over agents over episodes 30-129 > 30.0), and achieves best average score of above 37.
+As seen below, the environment is solved after 105 episodes.
 
 Screen output
+```
+Episode 100     Average Score: 28.36
+Episode 105     Average Score: 30.14
+Environment solved in 105 episodes!     Average Score: 30.14
+```
 
-
-Episodes | Average Score | Max | Min | Time
---- | --- | --- | --- | ---
-... | ... | ... | ... | ...
-Episode 121 | Average Score: 27.35 | Max Score: 39.58 | Min Score: 34.95 | Time per Episode: 18.99
-Episode 122 | Average Score: 27.71 | Max Score: 39.64 | Min Score: 31.14 | Time per Episode: 19.19
-Episode 123 | Average Score: 28.08 | Max Score: 39.66 | Min Score: 35.80 | Time per Episode: 19.29
-Episode 124 | Average Score: 28.43 | Max Score: 39.68 | Min Score: 29.57 | Time per Episode: 19.14
-Episode 129 | Average Score: 30.18 | Max Score: 39.46 | Min Score: 10.90 | Time per Episode: 18.94
-... | ... | ... | ... | ...
-Episode 184 | Average Score: 37.48 | Max Score: 39.36 | Min Score: 32.88 | Time per Episode: 18.89
-
-Environment solved in 129 episodes!	Average Score: 30.18, total training time: 2250.4 seconds
-
-Environment best average in 184 episodes!	Average Score: 37.48
-
+Below shows the plot of rewards up to when the environment is solved.
 ![Plot of Rewards][image2]
+
+Below shows the plot of rewards for 3000 episodes. There are two times when rewards plumped, but it was recovered and get stablized.
 ![Plot of Rewards for Training 3000 episodes][image3]
 
 ###  Ideas for future work
