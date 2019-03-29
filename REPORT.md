@@ -82,9 +82,12 @@ Environment solved in 105 episodes!     Average Score: 30.14
 Below shows the plot of rewards up to when the environment is solved.
 ![Plot of Rewards][image2]
 
-Below shows the plot of rewards for 3000 episodes. There are two times when rewards plumped, but it was recovered and get stablized.
+
+Below shows the plot of rewards for 3000 episodes. There are two times when rewards plumped, but it was recovered later and get stablized.
+
 
 ![Plot of Rewards for Training 3000 episodes][image3]
+
 
 ###  Ideas for future work
 
