@@ -62,11 +62,6 @@ L2 weight decay | 0
 UPDATE_EVERY | 20
 NUM_UPDATES | 10
 
-6. Network architecture:
-    - Both the actor and critic are implemented using fully connected networks, with 2 hidden layers of 128 units each, batch normalization and Relu activation function, with Tanh activation at the last layer.
-    - Input and output layers sizes are determined by the state and action space.
-    - Training time until solving the environment takes around 38 minutes on AWS p2 instance with Tesla k80 GPU.
-    - See 'model.py' for more details.
 
 ### Plot of results
 
