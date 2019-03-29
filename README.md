@@ -50,7 +50,7 @@ Apart from the `README.md` file this repository consists of the following files:
 1. `checkpoint_critic.pth`: Contains the weights of successful Critic Networks.
 
 Todos:
-1. Add `config.py`: a onfiguration files for training the model;
+1. Add `config.py`: a configuration files for training the model;
 1. `report.ipynb`: As an alternative to the `run.py` script this Jupyter Notebook has a step-by-step structure. Here the learning algorithm is described in detail;
 1. Improve plots;
 1. Add more screen outputs during the training to better monitor the learning;
