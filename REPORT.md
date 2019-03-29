@@ -83,6 +83,7 @@ Below shows the plot of rewards up to when the environment is solved.
 ![Plot of Rewards][image2]
 
 Below shows the plot of rewards for 3000 episodes. There are two times when rewards plumped, but it was recovered and get stablized.
+
 ![Plot of Rewards for Training 3000 episodes][image3]
 
 ###  Ideas for future work
